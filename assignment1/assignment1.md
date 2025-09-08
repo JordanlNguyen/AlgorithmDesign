@@ -28,5 +28,6 @@
     - insertion sort : 123.487 seconds
     - merge sort : 0.199978 seconds
     - quick sort : 0.040789 seconds
+#### plots
 ![plot1](assignment1_plot1.png)
 ![plot1](assignment1_plot2.png)
