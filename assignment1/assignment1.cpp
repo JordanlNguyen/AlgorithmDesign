@@ -89,13 +89,23 @@ void quickSort(vector<int>& a, int low, int high){
 
 int main(){
 
+    bool doSorted = true;
+
     int arraySize;
     cout << "enter array size: ";
     cin >> arraySize;
 
     vector<int> array;
-    for(int i = 0; i < arraySize; i++){
-        array.push_back(rand());
+    
+    if(doSorted){
+        for(int i = 0; i < arraySize; i++){
+            array.push_back(i);
+        }
+    }
+    else{
+        for(int i = 0; i < arraySize; i++){
+            array.push_back(rand());
+        }
     }
 
     int size = array.size();
